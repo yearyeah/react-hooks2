@@ -5,6 +5,7 @@ import UseRefDomComponent from './hooks/useRef/dom';
 import UseMemoComponent from './hooks/useMemo/component';
 import UseMemoComputed from './hooks/useMemo/computed';
 import UseCallbackFunc from './hooks/useCallback/func';
+import UseContextFunc from './hooks/useContext/';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <UseMemoComputed />
       <UseRefStateComponent />
       <UseRefDomComponent />
+      <UseContextFunc />
     </div>
   );
 }
